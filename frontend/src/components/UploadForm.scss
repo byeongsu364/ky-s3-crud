@@ -9,7 +9,13 @@
     border-radius: 1.2rem;
     // font-size: 1.4rem;
 
-    >*{
+    .left {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .left>*{
         border-radius: .5rem;
         padding: 1rem;
     }
